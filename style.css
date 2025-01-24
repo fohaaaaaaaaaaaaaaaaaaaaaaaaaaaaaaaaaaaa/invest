@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+/* Навигация */
+header {
+    background-color: #3498db;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Секция О проекте */
+section {
+    padding: 40px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#about {
+    background-color: #ecf0f1;
+}
+
+#how-it-works {
+    background-color: #ffffff;
+}
+
+#faq {
+    background-color: #f9f9f9;
+}
+
+#contact {
+    background-color: #ecf0f1;
+}
+
+/* Изображения */
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Часто задаваемые вопросы */
+dl {
+    margin-top: 20px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+/* Подвал */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
